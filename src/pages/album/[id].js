@@ -15,7 +15,7 @@ const Album = () => {
     const fetchAlbumData = async () => {
       try {
         const response = await axios.get(
-          `https://innerbeat-api.vercel.app/albums?id=${id}`
+          `https://jiosavanapi.vercel.app/albums?id=${id}`
         );
         const data = response.data;
         setAlbumData(data.data);
