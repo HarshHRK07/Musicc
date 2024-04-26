@@ -15,7 +15,7 @@ const Playlist = () => {
     const fetchPlaylistData = async () => {
       try {
         const response = await axios.get(
-          `https://innerbeat-api.vercel.app/playlists?id=${id}`
+          `https://jiosavanapi.vercel.app/playlists?id=${id}`
         );
         const data = response.data;
         setPlaylistData(data.data);
