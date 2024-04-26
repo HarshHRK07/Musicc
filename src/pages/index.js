@@ -30,6 +30,7 @@ const HomePage = () => {
   if (!homePageData) {
     return <Loader />;
   }
+
   return (
     <div>
       {/** HomePage Data */}
@@ -145,3 +146,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+                            
