@@ -13,7 +13,7 @@ const Song = () => {
     const fetchSongData = async () => {
       try {
         const response = await axios.get(
-          `https://innerbeat-api.vercel.app/songs?id=${id}`
+          `https://jiosavanapi.vercel.app/songs?id=${id}`
         );
         const data = response.data;
         setSongData(data.data[0]); // Access the first item in the data array
